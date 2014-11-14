@@ -225,6 +225,7 @@ selectBanksInTest <- function (testName = 'AQR2014',
                  leicode = leicode,
                  bscode = bscode.unique)
         }]
+    
     if (!is.null(outfile)){
         write.csv(
             x = out,
@@ -252,5 +253,12 @@ getAllBanks <- function (outfile = NULL){
     
     t2[, bscode.unique := selectUniqueBSIndex(bscode)]
 
+    if (!is.null(outfile)){
+        write.csv(
+            x = t2,
+            file = paste0(outfile,".csv")
+        )
+    }
+    
     return(t2)
 }
