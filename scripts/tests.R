@@ -8,4 +8,4 @@ t2 <- t1[, lapply(.SD, collapseDuplicatesWithinString)]
 
 t2[, bscode.unique := selectUniqueBSIndex(bscode)]
 
-
+allbanks <- getAllBanks()
