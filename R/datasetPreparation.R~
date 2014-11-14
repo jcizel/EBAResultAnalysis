@@ -1,4 +1,7 @@
-load_all()
+## PREPARE WORKSPACE
+require(data.table)
+require(ggplot2)
+require(gridExtra)
 
 PATH.DIR = "/Users/jankocizel/Documents/Dropbox/Projects/PhD Thesis/Banking_Quick_Tests"
 PATH.RESULTS = "/Users/jankocizel/Documents/Dropbox/Projects/PhD Thesis/Banking_Quick_Tests/RESULTS"

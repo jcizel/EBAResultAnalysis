@@ -9,8 +9,7 @@ Depends:
 Imports:
     data.table,
     ggplot2,
-    gridExtra
-Suggests:
-LazyData: true
+    gridExtra,
+    stringr
 VignetteBuilder: knitr
 License: What license is it under?
