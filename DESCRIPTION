@@ -1,0 +1,17 @@
+Package: EBAResultAnalysis
+Title: Analysis of EBA Stress Test Results
+Version: 0.1
+Authors@R: as.person(c(
+    "Janko Cizel <jcizel@gmail.com> [aut, cre]"))
+Description: What the package does (one paragraph)
+Depends:
+    R (>= 3.1.1),
+    data.table
+Imports:
+    data.table,
+    xlsx
+Suggests:
+    ggplot2
+LazyData: true
+VignetteBuilder: knitr
+License: What license is it under?
